@@ -1,0 +1,14 @@
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\RTIS_Vulcan_MBL.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\Java.Interop.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\Microsoft.CSharp.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\Mono.Android.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\Mono.Data.Sqlite.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\mscorlib.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.Core.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.Data.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.Xml.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\Mono.CSharp.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.Runtime.Serialization.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.Transactions.dll
+D:\Reltech Solutions\Clients\Cataler\Development\MBL\RTIS_Vulcan_MBL V2.1.1.33\RTIS_Vulcan_MBL\obj\Release\android\assets\System.Numerics.dll

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D30E939-8589-4B15-9E15-75D5FB3C7A8D}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RTIS_Vulcan_MBL</RootNamespace>
+    <AssemblyName>RTIS_Vulcan_MBL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v5.1</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>PdbOnly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidLinkMode>Full</AndroidLinkMode>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activities\A Login\Login.cs" />
+    <Compile Include="Activities\B Main\B_Sub_Menu.cs" />
+    <Compile Include="Activities\B Main\MainActivity.cs" />
+    <Compile Include="Activities\C Settings\SettingsPassword.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Manufacture\F_ScanPowder.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Manufacture\F_ScanPowderQty.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Add Fresh Slurry\G_ScanTrolley_FS.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Add Fresh Slurry\G_SlurryView_FS.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Decant\G_EnterWeight_Dec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Decant\G_ScanMobTank_Dec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Decant\G_ScanTank_Dec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Recovered\G_EnterLot_Rec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Recovered\G_EnterSol_Rec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Remaining\G_EnterLot_REM.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Remaining\G_EnterSol_REM.cs" />
+    <Compile Include="Activities\G Mixed Slurry\General\G_Menu.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Remaining\G_ScanTank_REM.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Remaining\G_EnterQty_REM.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Recovered\G_ScanTank_Rec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Enter Recovered\G_EnterQty_Rec.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Add Fresh Slurry\G_ScanTank_FS.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Add Fresh Slurry\G_EnterSlurryWeight_FS.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Solidity\G_EnterSolidity_Sol.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Solidity\G_EnterWetWeight_Sol.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Solidity\G_ScanTank_Sol.cs" />
+    <Compile Include="Activities\G Mixed Slurry\ZAC\G_EnterQty_ZAC.cs" />
+    <Compile Include="Activities\G Mixed Slurry\ZAC\G_ScanTank_ZAC.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Start Mixing\G_EnterLot_SM.cs" />
+    <Compile Include="Activities\G Mixed Slurry\Start Mixing\G_ScanTank_SM.cs" />
+    <Compile Include="Activities\G Mixed Slurry\ZAC\G_SelectChem_ZAC.cs" />
+    <Compile Include="Activities\H Transfers\Canning\H_Scan_RT2D_Canning.cs" />
+    <Compile Include="Activities\H Transfers\Canning\H_SelectCanningWhse.cs" />
+    <Compile Include="Activities\H Transfers\Mixed Slurry\H_ScanTank_MS.cs" />
+    <Compile Include="Activities\J Stock Take\J_EnterQty.cs" />
+    <Compile Include="Activities\J Stock Take\J_ScanEnterLot.cs" />
+    <Compile Include="Activities\J Stock Take\J_ScanItem.cs" />
+    <Compile Include="Activities\J Stock Take\J_ScanQty.cs" />
+    <Compile Include="Activities\J Stock Take\J_ScanTicket.cs" />
+    <Compile Include="Activities\J Stock Take\J_SelectStockTake.cs" />
+    <Compile Include="Activities\L Receiving Transfer\ScanItem_RecTrans.cs" />
+    <Compile Include="Activities\L Receiving Transfer\ScanQty_FSRec.cs" />
+    <Compile Include="Activities\M_ZECT\ScanZectItem.cs" />
+    <Compile Include="Activities\M_ZECT\ScanZectJob.cs" />
+    <Compile Include="Activities\L Receiving Transfer\SelectWhseFrom.cs" />
+    <Compile Include="Activities\D Receiving\ScanDocument.cs" />
+    <Compile Include="Activities\D Receiving\ScanItems.cs" />
+    <Compile Include="Activities\E Powder Prep\Manufacture\E_ScanBCD.cs" />
+    <Compile Include="Activities\E Powder Prep\Manufacture\E_ScanWeight.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Manufacture\F_Scan_Trolley.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Manufacture\F_Enter_Lot_Number.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Manufacture\F_Enter_Wet_Weight.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Solidity\FS_Scan_Trolley.cs" />
+    <Compile Include="Activities\F Fresh Slurry\Solidity\FS_Enter_Solidity.cs" />
+    <Compile Include="Activities\H Transfers\AW\H_Scan_RT2D_AW.cs" />
+    <Compile Include="Activities\H Transfers\AW\H_Select_AWWhse.cs" />
+    <Compile Include="Activities\H Transfers\To Production\H_Scan_Item_ToProd.cs" />
+    <Compile Include="Activities\H Transfers\To Production\H_Select_Whse_ToProd.cs" />
+    <Compile Include="Activities\H Transfers\Zect\H_SelectZectWhse.cs" />
+    <Compile Include="Activities\H Transfers\Zect\H_Scan_RT2D_Barcode.cs" />
+    <Compile Include="Activities\H Transfers\Powder Prep\H_ScanBCD_PP.cs" />
+    <Compile Include="Activities\H Transfers\Powder Prep\H_ScanDryWeight_PP.cs" />
+    <Compile Include="Activities\H Transfers\Powder Prep\H_Scan_Prep_Sheet_PP.cs" />
+    <Compile Include="Activities\H Transfers\Fresh Slurry\H_Scan_Trolley.cs" />
+    <Compile Include="Activities\H Transfers\Mixed Slurry\H_Select_MS_Whse.cs" />
+    <Compile Include="Activities\N_AW\N_ScanRawMaterial.cs" />
+    <Compile Include="Activities\N_AW\N_ScanJobTag.cs" />
+    <Compile Include="Activities\P_Disatch\P_ScanItems.cs" />
+    <Compile Include="Activities\P_Disatch\P_ScanSO.cs" />
+    <Compile Include="Activities\Q_Palletizing\Q_ScanItem.cs" />
+    <Compile Include="Activities\Q_Palletizing\Q_ScanItems.cs" />
+    <Compile Include="Activities\Q_Palletizing\Q_Scan_Pallet.cs" />
+    <Compile Include="Classes\Barcodes.cs" />
+    <Compile Include="Classes\Client.cs" />
+    <Compile Include="Classes\GlobalVar.cs" />
+    <Compile Include="Classes\SQLite.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Activities\C Settings\RTSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\C_RTSettings.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\C_EnterPassword.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Z_ErrorMsg.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\A_Login.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Z_Success.axml" />
+    <AndroidResource Include="Resources\layout\D_ScanPO.axml" />
+    <AndroidResource Include="Resources\layout\D_ScanItem.axml" />
+    <AndroidResource Include="Resources\layout\D_ListViewItem.axml" />
+    <AndroidResource Include="Resources\layout\E_Scan_Slurry_BCD.axml" />
+    <AndroidResource Include="Resources\layout\E_Scan_Dry_Weight.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\F_G_Scan_Slurry_Tank.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\F_G_EnterLot.axml" />
+    <AndroidResource Include="Resources\layout\F_G_EnterWeight.axml" />
+    <AndroidResource Include="Resources\layout\I_ScanItem.axml" />
+    <AndroidResource Include="Resources\layout\H_Scan_Slurry_BCD.axml" />
+    <AndroidResource Include="Resources\layout\H_Scan_Dry_Weight.axml" />
+    <AndroidResource Include="Resources\layout\E_SelectItem.axml" />
+    <AndroidResource Include="Resources\layout\H_Scan_Slurry_Tank.axml" />
+    <AndroidResource Include="Resources\layout\B_Sub_Menu.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\H_SelectWhse.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SuccessMsg.axml" />
+    <AndroidResource Include="Resources\layout\B_Sub_Menu_2.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\E_Confirm_Rec_Trans.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Z_Warning.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\G_Sub_Menu.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\G_ViewSlurries.axml" />
+    <AndroidResource Include="Resources\layout\G_ChemicalItem.axml" />
+    <AndroidResource Include="Resources\layout\J_SelectST.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\B_Main.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\blackborder.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\buttonDisabled.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\found.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\notfound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\notfound2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundedbutton.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundedbuttonpress.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Scrollbar.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\signalhigh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\signallow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\signalmedium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\wifisignal.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\baterychargelevel.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\baterylevel.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\beeperror.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chargeaempty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chargeafull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chargeahalf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chargeempty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chargefull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\chargehalf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\levelaempty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\levelafull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\levelahalf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\levelempty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\levelfull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\levelhalf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundedbuttonpressred.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundedbuttonred.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\RTLogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\RTLogoTrans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Activities\I FG Receiving\" />
+    <Folder Include="Activities\K Cycle Count\" />
+    <Folder Include="Activities\O_Canning\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundedbuttongreen.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\roundedbuttonamber.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\blackborderblue.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\blackbordergreen.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Z_YesNo.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Q_ScanItem.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+		<Target Name="BeforeBuild">
+		</Target>
+		<Target Name="AfterBuild">
+		</Target>
+ -->
+</Project>

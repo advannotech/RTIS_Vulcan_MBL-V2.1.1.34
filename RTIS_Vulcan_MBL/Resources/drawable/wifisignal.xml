@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+
+    <item
+        android:drawable="@drawable/signalhigh"
+        android:maxLevel="55" />
+    <item
+        android:drawable="@drawable/signalmedium"
+        android:maxLevel="70" />
+    <item
+        android:drawable="@drawable/signallow"
+        android:maxLevel="100" />
+    <item
+        android:drawable="@drawable/notfound2"
+        android:maxLevel="150" />
+</level-list>

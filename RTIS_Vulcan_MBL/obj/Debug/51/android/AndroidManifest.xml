@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="RTIS_Vulcan_MBL.RTIS_Vulcan_MBL" android:versionCode="2" android:installLocation="auto" android:versionName="1.1.48">
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="22" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.BATTERY_STATS" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:icon="@drawable/icon" android:label="RTIS_Vulcan_MBL" android:hardwareAccelerated="false" android:largeHeap="true" android:debuggable="true" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="Login" android:name="md56de0aae56ef5e620d50a1b927e45a0d0.Login">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.HOME" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="RTIS_Vulcan_MBL" android:name="md56de0aae56ef5e620d50a1b927e45a0d0.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.HOME" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <activity android:label="SettingsPassword" android:name="md56de0aae56ef5e620d50a1b927e45a0d0.SettingsPassword" />
+    <activity android:label="ScanDocument" android:name="md56de0aae56ef5e620d50a1b927e45a0d0.ScanDocument" />
+    <activity android:label="ScanItems" android:name="md56de0aae56ef5e620d50a1b927e45a0d0.ScanItems" />
+    <activity android:label="RTSettings" android:name="md56de0aae56ef5e620d50a1b927e45a0d0.RTSettings" />
+    <activity android:label="B_Sub_Menu" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.B_Sub_Menu" />
+    <activity android:label="ScanItem_PPRec" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.ScanItem_RecTrans" />
+    <activity android:label="ScanQty_FSRec" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.ScanQty_FSRec" />
+    <activity android:label="SelectWhseFrom_PPRec" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.SelectWhseFrom" />
+    <activity android:label="E_ScanBCD" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.E_ScanBCD" />
+    <activity android:label="E_ScanWeight" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.E_ScanWeight" />
+    <activity android:label="F_Scan_Trolley" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.F_Scan_Trolley" />
+    <activity android:label="F_Enter_Lot_Number" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.F_Enter_Lot_Number" />
+    <activity android:label="F_Enter_Wet_Weight" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.F_Enter_Wet_Weight" />
+    <activity android:label="FS_Scan_Trolley" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.FS_Scan_Trolley" />
+    <activity android:label="FS_Enter_Solidity" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.FS_Enter_Solidity" />
+    <activity android:label="H_Scan_RT2D_AW" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Scan_RT2D_AW" />
+    <activity android:label="H_Select_AWWhse" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Select_AWWhse" />
+    <activity android:label="H_Scan_Item_ToProd" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Scan_Item_ToProd" />
+    <activity android:label="H_Select_Whse_ToProd" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Select_Whse_ToProd" />
+    <activity android:label="H_SelectZectWhse" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_SelectZectWhse" />
+    <activity android:label="H_Scan_RT2D_Barcode" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Scan_RT2D_Barcode" />
+    <activity android:label="H_ScanBCD_PP" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_ScanBCD_PP" />
+    <activity android:label="H_ScanDryWeight_PP" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_ScanDryWeight_PP" />
+    <activity android:label="H_Scan_Prep_Sheet_PP" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Scan_Prep_Sheet_PP" />
+    <activity android:label="H_Scan_Trolley" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Scan_Trolley" />
+    <activity android:label="H_Select_MS_Whse" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.H_Select_MS_Whse" />
+    <activity android:label="N_ScanRawMaterial" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.N_ScanRawMaterial" />
+    <activity android:label="N_ScanJobTag" android:name="md5302bb32ecb873ddc8eadbd5a1047b264.N_ScanJobTag" />
+    <activity android:label="Q_ScanItem" android:name="md53bb0abbe82940618994b59763f8291b6.Q_ScanItem" />
+    <activity android:label="Q_ScanItems" android:name="md53bb0abbe82940618994b59763f8291b6.Q_ScanItems" />
+    <activity android:label="Q_Scan_Pallet" android:name="md53bb0abbe82940618994b59763f8291b6.Q_Scan_Pallet" />
+    <activity android:label="P_ScanItems" android:name="md517a65ec6b4ad132342a448a93128ab0d.P_ScanItems" />
+    <activity android:label="P_ScanSO" android:name="md517a65ec6b4ad132342a448a93128ab0d.P_ScanSO" />
+    <activity android:label="ScanZectItem" android:name="md5cc2fe311e350ff83998bf7ef19e93019.ScanZectItem" />
+    <activity android:label="ScanZectJob" android:name="md5cc2fe311e350ff83998bf7ef19e93019.ScanZectJob" />
+    <activity android:label="J_EnterQty" android:name="md5e8a596900132f25af2fdcce0f16e0175.J_EnterQty" />
+    <activity android:label="J_ScanEnterLot" android:name="md5e8a596900132f25af2fdcce0f16e0175.J_ScanEnterLot" />
+    <activity android:label="J_ScanItem" android:name="md5e8a596900132f25af2fdcce0f16e0175.J_ScanItem" />
+    <activity android:label="J_ScanQty" android:name="md5e8a596900132f25af2fdcce0f16e0175.J_ScanQty" />
+    <activity android:label="J_ScanTicket" android:name="md5e8a596900132f25af2fdcce0f16e0175.J_ScanTicket" />
+    <activity android:label="J_SelectStockTake" android:name="md5e8a596900132f25af2fdcce0f16e0175.J_SelectStockTake" />
+    <activity android:label="H_Scan_RT2D_Canning" android:name="md535c70621fa34c72cef7048f2a179603d.H_Scan_RT2D_Canning" />
+    <activity android:label="H_SelectCanningWhse" android:name="md535c70621fa34c72cef7048f2a179603d.H_SelectCanningWhse" />
+    <activity android:label="H_ScanTank_MS" android:name="md56c816c1754a8a5c54667ca2d3a5ebf92.H_ScanTank_MS" />
+    <activity android:label="G_Menu" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_Menu" />
+    <activity android:label="G_ScanTank_REM" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_ScanTank_REM" />
+    <activity android:label="G_EnterQty_REM" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_EnterQty_REM" />
+    <activity android:label="G_ScanTank_Rec" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_ScanTank_Rec" />
+    <activity android:label="G_EnterQty_Rec" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_EnterQty_Rec" />
+    <activity android:label="G_ScanTank_FS" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_ScanTank_FS" />
+    <activity android:label="G_EnterSlurryWeight_FS" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_EnterSlurryWeight_FS" />
+    <activity android:label="G_ScanTank_ZAC" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_ScanTank_ZAC" />
+    <activity android:label="G_EnterLot_SM" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_EnterLot_SM" />
+    <activity android:label="G_ScanTank_SM" android:name="md5dfda6b884dbdbfb6cce3e42e5c4aac38.G_ScanTank_SM" />
+    <activity android:label="G_EnterQty_ZAC" android:name="md553889d0879b049ba0df1b5deb7c1e4b2.G_EnterQty_ZAC" />
+    <activity android:label="G_SelectChem_ZAC" android:name="md553889d0879b049ba0df1b5deb7c1e4b2.G_SelectChem_ZAC" />
+    <activity android:label="G_EnterSolidity_Sol" android:name="md50e858b59475ddb1daf055a0c3c81c11e.G_EnterSolidity_Sol" />
+    <activity android:label="G_EnterWetWeight_Sol" android:name="md50e858b59475ddb1daf055a0c3c81c11e.G_EnterWetWeight_Sol" />
+    <activity android:label="G_ScanTank_Sol" android:name="md50e858b59475ddb1daf055a0c3c81c11e.G_ScanTank_Sol" />
+    <activity android:label="G_EnterLot_REM" android:name="md5b3989442d718a453d26341457b2e9af1.G_EnterLot_REM" />
+    <activity android:label="G_EnterSol_REM" android:name="md5b3989442d718a453d26341457b2e9af1.G_EnterSol_REM" />
+    <activity android:label="G_EnterLot_Rec" android:name="md5b05adee90ac091e12fd733d8eef136a6.G_EnterLot_Rec" />
+    <activity android:label="G_EnterSol_Rec" android:name="md5b05adee90ac091e12fd733d8eef136a6.G_EnterSol_Rec" />
+    <activity android:label="G_EnterWeight_Dec" android:name="md524a81ec7e775b99b5e3af9c7d2b93cfd.G_EnterWeight_Dec" />
+    <activity android:label="G_ScanMobTank_Dec" android:name="md524a81ec7e775b99b5e3af9c7d2b93cfd.G_ScanMobTank_Dec" />
+    <activity android:label="G_ScanTank_Dec" android:name="md524a81ec7e775b99b5e3af9c7d2b93cfd.G_ScanTank_Dec" />
+    <activity android:label="G_ScanTrolley_FS" android:name="md572214e5ebbd2dbb680c3f2f21cc8a980.G_ScanTrolley_FS" />
+    <activity android:label="G_SlurryView_FS" android:name="md572214e5ebbd2dbb680c3f2f21cc8a980.G_SlurryView_FS" />
+    <activity android:label="F_ScanPowder" android:name="md5b8e8a8c143a931d9794ba49480290f8b.F_ScanPowder" />
+    <activity android:label="F_ScanPowderQty" android:name="md5b8e8a8c143a931d9794ba49480290f8b.F_ScanPowderQty" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="RTIS_Vulcan_MBL.RTIS_Vulcan_MBL.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.RTIS_Vulcan_MBL.RTIS_Vulcan_MBL" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <application android:label="RTIS_Vulcan_MBL" android:icon="@drawable/icon"></application>
+</manifest>
