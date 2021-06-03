@@ -8,4 +8,12 @@
     <ResultingAbi>armeabi-v7a</ResultingAbi>
     <SdkVersion>27</SdkVersion>
   </Device>
+  <Device id="emulator-5554">
+    <ResultingAbi>armeabi-v7a</ResultingAbi>
+    <SdkVersion>22</SdkVersion>
+  </Device>
+  <Device id="64X0218924002165">
+    <ResultingAbi>arm64-v8a</ResultingAbi>
+    <SdkVersion>29</SdkVersion>
+  </Device>
 </Devices>

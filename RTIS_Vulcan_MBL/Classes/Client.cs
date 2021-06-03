@@ -177,7 +177,7 @@ namespace RTIS_Vulcan_MBL
                     for (int i = 0; i <= length - 1; i++)
                     {
                         ServerDetails += Convert.ToChar(receivebytes[i]);
-                        count = count - 1;
+                        count--;
                     }
                     count = DataClient.Receive(receivebytes);
                     length = count;
