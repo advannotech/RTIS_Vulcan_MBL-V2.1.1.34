@@ -1,0 +1,14 @@
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\RTIS_Vulcan_MBL.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\Java.Interop.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\Microsoft.CSharp.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\Mono.Android.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\Mono.Data.Sqlite.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\mscorlib.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.Core.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.Data.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.Xml.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.Runtime.Serialization.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.Transactions.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\System.Numerics.dll
+C:\Users\advannotechdev2\Documents\Cataler\MBL\RTIS_Vulcan_MBL V2.1.1.34\RTIS_Vulcan_MBL\obj\Release\51\android\assets\Mono.Security.dll

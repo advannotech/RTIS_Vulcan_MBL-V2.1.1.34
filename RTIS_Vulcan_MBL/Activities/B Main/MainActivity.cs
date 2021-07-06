@@ -602,7 +602,7 @@ namespace RTIS_Vulcan_MBL
 
             #region Warehouses
             GlobalVar.PPtFSWhse = prefs.GetString("sPPtFSWhse", "WIP-PP");
-            GlobalVar.FStMSWhse = prefs.GetString("sFStMSWhse", "WIP-FS");
+            GlobalVar.FStMSWhse = "WIP-FS";
             GlobalVar.MStZectWhse = prefs.GetString("sMStZectWhse", "WIP-MS");
             GlobalVar.ToProdWhse = prefs.GetString("sToProdWhse", "Mstr");
             GlobalVar.ZectWhse = prefs.GetString("sZectWhse", "WIP-Z2");

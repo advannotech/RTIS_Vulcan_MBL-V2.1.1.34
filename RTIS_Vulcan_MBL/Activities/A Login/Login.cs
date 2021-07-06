@@ -204,7 +204,7 @@ namespace RTIS_Vulcan_MBL
 
 
             GlobalVar.PPtFSWhse = prefs.GetString("sPPtFSWhse", "PPtFS");
-            GlobalVar.FStMSWhse = prefs.GetString("sFStMSWhse", "FStMS");
+            GlobalVar.FStMSWhse = "FStMS";
             GlobalVar.MStZectWhse = prefs.GetString("sMStZectWhse", "MStZect");
             GlobalVar.ToProdWhse = prefs.GetString("sToProdWhse", "Mstr");
             GlobalVar.ZectWhse = prefs.GetString("sZectWhse", "Zect");
